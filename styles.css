@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f1e0a6b9 0%, #f1cfc69e 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.container {
+    background: rgba(255,255,255,0.95);
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 36px 30px;
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.09);
+}
+h1 {
+    color: #20435c;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label {
+    color: #555;
+    margin: 12px 0 3px 0;
+    display: block;
+}
+input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #bbe1fa;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+button {
+    background: linear-gradient(90deg, #56ccf2 0%, #2f80ed 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+button:hover {
+    background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+}
+.recommendations {
+    margin-top: 28px;
+}
+.recommendations h2 {
+    color: #374151;
+    margin-bottom: 10px;
+}
+.recommendations ul {
+    list-style-type: disc;
+    padding-left: 24px;
+}
+.recommendations li {
+    background: linear-gradient(90deg, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 6px 12px;
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(171,184,195,0.08);
+}

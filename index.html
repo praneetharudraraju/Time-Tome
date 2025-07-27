@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Tome</h1>
+        <form method="post">
+            <label for="pages">Pages read:</label>
+            <input type="number" id="pages" name="pages" min="1" required>
+
+            <label for="time">Time spent reading (minutes):</label>
+            <input type="number" id="time" name="time" min="1" required>
+
+            <label for="duration">Available time to read (hours):</label>
+            <input type="number" id="duration" name="duration" min="1" required>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        {% if recommendations %}
+        <div class="recommendations">
+            <h2>Recommended Books:</h2>
+            <ul>
+                {% for title in recommendations %}
+                <li>{{ title }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
