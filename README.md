@@ -16,5 +16,5 @@ Python
 Flask
 scikit-learn
 pandas & numpy
-HTML, CSS
+HTML,CSS
 
