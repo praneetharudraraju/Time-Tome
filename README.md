@@ -12,9 +12,9 @@ Time-Tome is a machine learning-based web application that recommends books base
 
 # Technologies Used 
 
-Python
-Flask
-scikit-learn
-pandas & numpy
+Python,
+Flask,
+scikit-learn,
+pandas & numpy,
 HTML,CSS
 
